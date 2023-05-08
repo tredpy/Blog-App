@@ -2,8 +2,8 @@ import {classNames} from "shared/lib/classNames/classNames";
 import s from './ThemeSwitcher.module.scss'
 import {useTheme} from "app/providers/ThemeProvider";
 import {Theme} from "app/providers/ThemeProvider/lib/ThemeContext";
-import DarkIcon from 'shared/assets/icons/theme-dark.svg'
-import LightIcon from 'shared/assets/icons/theme-light.svg'
+import DarkIcon from 'shared/assets/icons/DarkTheme.svg'
+import LightIcon from 'shared/assets/icons/LightTheme.svg'
 import {Button, ThemeButton} from "shared/ui/Button/Button";
 
 interface ThemeSwitcherProps {

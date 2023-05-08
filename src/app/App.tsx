@@ -1,4 +1,4 @@
-import {useTheme} from './providers/ThemeProvider';
+import {useTheme} from "./providers/ThemeProvider";
 import {classNames} from "shared/lib/classNames/classNames";
 import {AppRouter} from "app/providers/AppRouter";
 import {Header} from "widgets/Header";
