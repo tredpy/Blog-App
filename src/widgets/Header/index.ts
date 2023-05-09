@@ -1,3 +1,3 @@
-import {Header} from "widgets/Header/ui/Header";
+import { Header } from 'widgets/Header/ui/Header';
 
-export {Header}
+export { Header };
