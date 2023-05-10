@@ -3,7 +3,7 @@ import { AppRouter } from 'app/providers/AppRouter';
 import { Header } from 'widgets/Header';
 import { SideBar } from 'widgets/SideBar';
 import { Suspense } from 'react';
-import { useTheme } from './providers/ThemeProvider';
+import { useTheme } from 'shared/lib/useTheme/useTheme';
 import './styles/index.scss';
 
 const App = () => {
