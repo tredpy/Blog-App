@@ -1,6 +1,6 @@
+import { useTranslation } from 'react-i18next';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { AppLink, AppLinkView } from 'shared/ui/AppLink/AppLink';
-import { useTranslation } from 'react-i18next';
 import s from './Header.module.scss';
 
 interface HeaderProps {
