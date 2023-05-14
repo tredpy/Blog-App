@@ -9,8 +9,7 @@ interface ErrorThrowerProps {
 export const ErrorThrower = ({ className }: ErrorThrowerProps) => {
     const { t } = useTranslation();
     const reloadPage = () => {
-        // eslint-disable-next-line no-restricted-globals
-        location.reload();
+        window.location.reload();
     };
     return (
         <div className={classNames(s.ErrorThrower, {}, [className])}>
