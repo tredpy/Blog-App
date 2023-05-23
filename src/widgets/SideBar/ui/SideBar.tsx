@@ -25,8 +25,9 @@ export const SideBar = ({ className }: SideBarProps) => {
         >
             <Button
                 data-testid="SideBarToggle"
-                view={ButtonView.CLEAR}
+                view={ButtonView.BACKGROUND_INVERTED}
                 onClick={onToggle}
+                className={s.collapseBtn}
             >
                 {theme === Theme.DARK ? <HideLight /> : <HideDark />}
             </Button>

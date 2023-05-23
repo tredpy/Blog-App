@@ -16,3 +16,17 @@
     color: var(--primary-color);
     background: none;
 }
+
+.background {
+    background: var(--bg-color);
+    color: var(--primary-color);
+    border: none;
+}
+
+.backgroundInverted {
+    background: var(--inverted-bg-color);
+    color: var(--inverted-bg-color);
+    border: none;
+}
+
+
